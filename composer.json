@@ -1,0 +1,12 @@
+{
+    "name": "schillermann/clean-architecture",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BusinessLogic\\": "business-logic/",
+            "Framework\\": "framework/"
+        }
+    }
+    "require": {}
+}
